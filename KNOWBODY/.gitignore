@@ -1,0 +1,12 @@
+# XAMPP/Local environment files
+.DS_Store
+*.log
+*.tmp
+/temp/
+
+# PHP specific
+composer.lock
+vendor/
+
+# Database (keep schema, ignore individual dumps if desired)
+# database/dummy_sql.sql

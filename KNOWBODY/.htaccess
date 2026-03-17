@@ -1,0 +1,14 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /dashboard/KNOWBODY/
+
+# Allow direct access to actual files and directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Redirect all other requests to handle PHP files
+RewriteRule ^feature/(.+)$ feature/$1 [L]
+RewriteRule ^admin/(.+)$ admin/$1 [L]
+RewriteRule ^user/(.+)$ user/$1 [L]
