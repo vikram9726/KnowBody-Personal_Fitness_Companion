@@ -56,7 +56,7 @@ KnowBody is a comprehensive web-based fitness tracking platform designed to help
 
 ### Admin Login
 - **Username:** `admin`
-- **Password:** `admin` (or original hashed password in SQL)
+- **Password:** `123456`
 
 ### Test User (from dummy_sql.sql)
 - **Username:** `testuser`
